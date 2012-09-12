@@ -57,6 +57,7 @@
             this.bStart.TabIndex = 2;
             this.bStart.Text = "Start";
             this.bStart.UseVisualStyleBackColor = true;
+            this.bStart.Click += new System.EventHandler(this.bStart_Click);
             // 
             // mTitleBar
             // 

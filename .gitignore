@@ -12,7 +12,7 @@
 *_i.c
 *_p.c
 *.ncb
-*.suo
+*.suo 
 *.tlb
 *.tlh
 *.bak
@@ -65,20 +65,6 @@ packages/
 
 #Additional
 #Found from article on Stackoverflow: http://stackoverflow.com/questions/2143956/gitignore-for-visual-studio-projects-and-solutions
-[Oo]bj
-[Bb]in
-*.user
-*.suo
-*.[Cc]ache
 *.bak
-*.ncb
-*.log 
-*.DS_Store
-[Tt]humbs.db 
-_ReSharper.*
 *.resharper
-Ankh.NoLoad
-*.user
-*.suo
-_ReSharper.*
 *.sln.cache

@@ -30,5 +30,10 @@ namespace LearningWindows
         {
             Environment.Exit(0);
         }
+
+        private void bStart_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You only live once.", "ALERT!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
     }
 }

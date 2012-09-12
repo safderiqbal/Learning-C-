@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{D5DC29ED-A645-4864-8ACA-9C3D77C45239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWindows", "LearningWindows\LearningWindows.csproj", "{712FBBBA-DC18-4675-AF37-033FEB0071DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5DC29ED-A645-4864-8ACA-9C3D77C45239}.Debug|x86.ActiveCfg = Debug|x86
+		{D5DC29ED-A645-4864-8ACA-9C3D77C45239}.Debug|x86.Build.0 = Debug|x86
+		{D5DC29ED-A645-4864-8ACA-9C3D77C45239}.Release|x86.ActiveCfg = Release|x86
+		{D5DC29ED-A645-4864-8ACA-9C3D77C45239}.Release|x86.Build.0 = Release|x86
+		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Debug|x86.ActiveCfg = Debug|x86
+		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Debug|x86.Build.0 = Debug|x86
+		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Release|x86.ActiveCfg = Release|x86
+		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

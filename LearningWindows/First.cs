@@ -30,10 +30,5 @@ namespace LearningWindows
         {
             Environment.Exit(0);
         }
-
-        private void mINew_Click(object sender, EventArgs e)
-        {
-            //exit();
-        }
     }
 }

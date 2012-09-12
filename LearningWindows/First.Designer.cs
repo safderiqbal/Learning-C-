@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.bExit = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bStart = new System.Windows.Forms.Button();
+            this.mTitleBar = new System.Windows.Forms.MenuStrip();
+            this.mFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mINew = new System.Windows.Forms.ToolStripMenuItem();
             this.mIExit = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.mTitleBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // bExit
@@ -48,41 +48,40 @@
             this.bExit.UseVisualStyleBackColor = true;
             this.bExit.Click += new System.EventHandler(this.bExit_Click);
             // 
-            // button1
+            // bStart
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(13, 314);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bStart.Location = new System.Drawing.Point(13, 314);
+            this.bStart.Name = "bStart";
+            this.bStart.Size = new System.Drawing.Size(75, 23);
+            this.bStart.TabIndex = 2;
+            this.bStart.Text = "Start";
+            this.bStart.UseVisualStyleBackColor = true;
             // 
-            // menuStrip1
+            // mTitleBar
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(419, 24);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
+            this.mTitleBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mFile});
+            this.mTitleBar.Location = new System.Drawing.Point(0, 0);
+            this.mTitleBar.Name = "mTitleBar";
+            this.mTitleBar.Size = new System.Drawing.Size(419, 24);
+            this.mTitleBar.TabIndex = 3;
+            this.mTitleBar.Text = "menuStrip1";
             // 
-            // toolStripMenuItem1
+            // mFile
             // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mINew,
             this.mIExit});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(37, 20);
-            this.toolStripMenuItem1.Text = "File";
+            this.mFile.Name = "mFile";
+            this.mFile.Size = new System.Drawing.Size(37, 20);
+            this.mFile.Text = "File";
             // 
             // mINew
             // 
             this.mINew.Name = "mINew";
             this.mINew.Size = new System.Drawing.Size(152, 22);
             this.mINew.Text = "New";
-            this.mINew.Click += new System.EventHandler(this.mINew_Click);
             // 
             // mIExit
             // 
@@ -97,15 +96,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(419, 349);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bStart);
             this.Controls.Add(this.bExit);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.mTitleBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.mTitleBar;
             this.Name = "First";
             this.Text = "YOLO";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.mTitleBar.ResumeLayout(false);
+            this.mTitleBar.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,9 +113,9 @@
         #endregion
 
         private System.Windows.Forms.Button bExit;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.Button bStart;
+        private System.Windows.Forms.MenuStrip mTitleBar;
+        private System.Windows.Forms.ToolStripMenuItem mFile;
         private System.Windows.Forms.ToolStripMenuItem mINew;
         private System.Windows.Forms.ToolStripMenuItem mIExit;
 

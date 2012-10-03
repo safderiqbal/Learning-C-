@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWindows", "LearningWindows\LearningWindows.csproj", "{712FBBBA-DC18-4675-AF37-033FEB0071DE}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Distribution", "Distribution\Distribution.vdproj", "{DA383A56-E430-4420-999D-F52786A424D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,8 @@ Global
 		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Debug|x86.Build.0 = Debug|x86
 		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Release|x86.ActiveCfg = Release|x86
 		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Release|x86.Build.0 = Release|x86
+		{DA383A56-E430-4420-999D-F52786A424D7}.Debug|x86.ActiveCfg = Debug
+		{DA383A56-E430-4420-999D-F52786A424D7}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,6 +42,12 @@ namespace ConsoleApplication1
             }
         } // checkString
 
+        /// <summary>
+        /// Reads in a line of input from standard input (AKA console) and attempts to validate the input.
+        /// Alerts the user if anythin has gone wrong
+        /// </summary>
+        /// <returns>Valid input from the user</returns>
+
         private string readString()
         {
             string temp = Console.ReadLine();
@@ -54,6 +60,12 @@ namespace ConsoleApplication1
                 return readString();
             } // else
         } // isString
+
+        /// <summary>
+        /// Utilises CultureInfo to detect which part of the name the user is attempting to input, as well as resolving any issues with case.
+        /// </summary>
+        /// <param name="control">Switch info: 1 = First Name, 2 = Middle Name (if applicable), 3 = Surname</param>
+        /// <returns>-1 on failure</returns>
 
         private int getName(int control)
         {
@@ -86,6 +98,10 @@ namespace ConsoleApplication1
                     return -1;
             } // switch
         } // getLine
+        
+        /// <summary>
+        /// Prompts the user for a standard input (AKA console) input to whether they wish to enter a middle name or not
+        /// </summary>
 
         private void checkMiddle()
         {
@@ -97,6 +113,11 @@ namespace ConsoleApplication1
             else
                 hasMiddle = false;
         } // checkMiddle
+
+        /// <summary>
+        /// Attempts to retrieve all parts of the user's name, and uses checkMiddle() to instantiate the hasMiddle variable
+        /// </summary>
+        /// <returns>False on failure</returns>
 
         private bool getFullName()
         {
@@ -120,6 +141,11 @@ namespace ConsoleApplication1
                 return false;
             } // catch
         } // getName()
+
+        /// <summary>
+        /// Main method
+        /// </summary>
+        /// <param name="args">Arguments passed on runtime</param>
 
         static void Main(string[] args)
         {

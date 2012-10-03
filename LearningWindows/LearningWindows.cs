@@ -5,6 +5,7 @@ using System.Windows.Forms;
 
 namespace LearningWindows
 {
+
     static class LearningWindows
     {
         /// <summary>

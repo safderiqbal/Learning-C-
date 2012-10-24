@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWindows", "Learning
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Distribution", "Distribution\Distribution.vdproj", "{DA383A56-E430-4420-999D-F52786A424D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleGlazer", "DoubleGlazer\DoubleGlazer.csproj", "{C0DE557C-BE33-45A0-A34B-CE3B66E8F0A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -23,6 +25,10 @@ Global
 		{712FBBBA-DC18-4675-AF37-033FEB0071DE}.Release|x86.Build.0 = Release|x86
 		{DA383A56-E430-4420-999D-F52786A424D7}.Debug|x86.ActiveCfg = Debug
 		{DA383A56-E430-4420-999D-F52786A424D7}.Release|x86.ActiveCfg = Release
+		{C0DE557C-BE33-45A0-A34B-CE3B66E8F0A1}.Debug|x86.ActiveCfg = Debug|x86
+		{C0DE557C-BE33-45A0-A34B-CE3B66E8F0A1}.Debug|x86.Build.0 = Debug|x86
+		{C0DE557C-BE33-45A0-A34B-CE3B66E8F0A1}.Release|x86.ActiveCfg = Release|x86
+		{C0DE557C-BE33-45A0-A34B-CE3B66E8F0A1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

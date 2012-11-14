@@ -12,7 +12,7 @@ namespace Decisions
 		static void Main(string[] args)
 		{
 			play();
-		} 
+		}
 
 		private static void play()
 		{

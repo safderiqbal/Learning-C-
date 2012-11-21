@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_World", "Hello_World\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decisions", "Decisions\Decisions.csproj", "{915B1014-3668-49CE-9A7C-E2733FCC8BB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForIterations", "ForIterations\ForIterations.csproj", "{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -41,6 +43,10 @@ Global
 		{915B1014-3668-49CE-9A7C-E2733FCC8BB4}.Debug|x86.Build.0 = Debug|x86
 		{915B1014-3668-49CE-9A7C-E2733FCC8BB4}.Release|x86.ActiveCfg = Release|x86
 		{915B1014-3668-49CE-9A7C-E2733FCC8BB4}.Release|x86.Build.0 = Release|x86
+		{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}.Debug|x86.ActiveCfg = Debug|x86
+		{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}.Debug|x86.Build.0 = Debug|x86
+		{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}.Release|x86.ActiveCfg = Release|x86
+		{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

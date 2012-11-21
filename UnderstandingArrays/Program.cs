@@ -25,6 +25,13 @@ namespace UnderstandingArrays
 				Console.WriteLine(numbers[i]);
 			}
 
+			string[] names = { "Bob", "Steve", "Brain", "Chuck" };
+
+			foreach (string name in names)
+			{
+				Console.WriteLine(name);
+			}
+
 			//Console.WriteLine(numbers[1]);
 			Console.ReadKey();
 		}

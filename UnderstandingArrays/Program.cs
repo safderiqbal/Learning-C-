@@ -32,6 +32,15 @@ namespace UnderstandingArrays
 				Console.WriteLine(name);
 			}
 
+			string myText = "Now is the time for all good men to come to the aid of their country.";
+			char[] charArray = myText.ToCharArray();
+			Array.Reverse(charArray);
+
+			foreach (char myChar in charArray)
+			{
+				Console.Write(myChar);
+			}
+
 			//Console.WriteLine(numbers[1]);
 			Console.ReadKey();
 		}

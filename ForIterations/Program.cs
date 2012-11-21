@@ -19,6 +19,11 @@ namespace ForIterations
 				}
 			}
 
+			for (int myX = 0; myX < 10; myX++)
+			{
+				Console.WriteLine(myX);	
+			}
+
 			Console.ReadKey();
 		}
 	}

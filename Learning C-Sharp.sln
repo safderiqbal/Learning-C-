@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decisions", "Decisions\Deci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForIterations", "ForIterations\ForIterations.csproj", "{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingArrays", "UnderstandingArrays\UnderstandingArrays.csproj", "{C5694C39-2BA9-41E3-8D4D-F8ECD373B458}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -47,6 +49,10 @@ Global
 		{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}.Debug|x86.Build.0 = Debug|x86
 		{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}.Release|x86.ActiveCfg = Release|x86
 		{CD2E24A9-3ED3-4F55-B7CF-5C526DDA3386}.Release|x86.Build.0 = Release|x86
+		{C5694C39-2BA9-41E3-8D4D-F8ECD373B458}.Debug|x86.ActiveCfg = Debug|x86
+		{C5694C39-2BA9-41E3-8D4D-F8ECD373B458}.Debug|x86.Build.0 = Debug|x86
+		{C5694C39-2BA9-41E3-8D4D-F8ECD373B458}.Release|x86.ActiveCfg = Release|x86
+		{C5694C39-2BA9-41E3-8D4D-F8ECD373B458}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -69,4 +69,3 @@ packages/
 *.resharper
 *.sln.cache
 *.suo
-*AssemblyInfo.cs

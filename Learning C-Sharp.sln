@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingArrays", "Unde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperMethods", "HelperMethods\HelperMethods.csproj", "{0E2E567E-EC3B-4C35-8699-5FF3BF4C5EB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextFileWhile", "ReadTextFileWhile\ReadTextFileWhile.csproj", "{916584DA-AB74-4584-BA24-C8D5F0971052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,16 @@ Global
 		{0E2E567E-EC3B-4C35-8699-5FF3BF4C5EB6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{0E2E567E-EC3B-4C35-8699-5FF3BF4C5EB6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0E2E567E-EC3B-4C35-8699-5FF3BF4C5EB6}.Release|x86.ActiveCfg = Release|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

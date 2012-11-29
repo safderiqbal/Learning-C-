@@ -18,11 +18,11 @@ namespace Decisions
 		{
 			Console.WriteLine("Would you prefer what is behind door number 1, 2, or 3?");
 			int min = 1;
-			int max = 3;
+			int max = 4;
 
 			// Load the random numbers
 			ArrayList availableNumbers = new ArrayList();
-			for (int i = min; i <= max; i++)
+			for (int i = min; i < max; i++)
 				availableNumbers.Add(i);
 
 			// Assign the first number to the car's door number
@@ -40,18 +40,19 @@ namespace Decisions
 			// Assign the cat value the remaining number
 			catValue = (int)availableNumbers[0];
 
-			// Read the user input
-				// currently assumes it's a number
-			int userValue = Convert.ToInt32(Console.ReadLine());
+            // DEBUG
+            //Console.WriteLine(String.Format("CarValue: {0} BoatValue: {1} CatValue: {2}",carValue,boatValue,catValue));
 
+			// Read the user input
+            int userValue = readNumber(min, max);
+
+            // The 'CatValue' variable now only holds debug purposes, due to sufficient validation on the integer input
 			if (userValue == carValue)
 				message = "You won a new car!";
 			else if (userValue == boatValue)
 				message = "You won a new boat!";
-			else if (userValue == catValue)
-				message = "You won a new cat!";
 			else
-				message = "Sorry, you lose!";
+				message = "You won a new cat!";
 
 			Console.WriteLine(message);
 
@@ -72,13 +73,21 @@ namespace Decisions
 
 		private static int RandomNumber(int min, int max)
 		{
-			Random random = new Random();
+            Random random = new Random((int)DateTime.Now.TimeOfDay.TotalMilliseconds);
 			return random.Next(min, max);
 		}
 
-		private static int readNumber()
+		private static int readNumber(int min, int max)
 		{
-			return 1;
+            String obj =  Console.ReadLine();
+            int value;
+            if (int.TryParse(obj, out value) && value < max++ && value > min--)
+                return value;
+            else
+            {
+                Console.WriteLine("Something was wrong with the input provided. Please try again.");
+                return readNumber(min, max);
+            }
 		}
 
 		private static string readString()

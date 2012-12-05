@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperMethods", "HelperMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextFileWhile", "ReadTextFileWhile\ReadTextFileWhile.csproj", "{916584DA-AB74-4584-BA24-C8D5F0971052}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{0898C2C1-6C97-4B65-B786-ABFB13E672F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,16 @@ Global
 		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{916584DA-AB74-4584-BA24-C8D5F0971052}.Release|x86.ActiveCfg = Release|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

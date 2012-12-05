@@ -25,12 +25,17 @@ namespace Strings
 
             //string myString = string.Format("Phone number: {0:(###) ###-####}", 1234567890);
 
-            string myString = "";
+            //string myString = "";
+
+            StringBuilder myString = new StringBuilder();
 
             for (int i = 0; i < 100; i++)
             {
                // myString = myString + "--" + i.ToString();
-                myString += "--" + i.ToString();
+                //myString += "--" + i.ToString();
+
+                myString.Append("--");
+                myString.Append(i);
             }
 
             Console.WriteLine(myString);

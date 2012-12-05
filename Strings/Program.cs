@@ -27,16 +27,23 @@ namespace Strings
 
             //string myString = "";
 
-            StringBuilder myString = new StringBuilder();
+            //StringBuilder myString = new StringBuilder();
 
-            for (int i = 0; i < 100; i++)
-            {
-               // myString = myString + "--" + i.ToString();
-                //myString += "--" + i.ToString();
+            //for (int i = 0; i < 100; i++)
+            //{
+            //   // myString = myString + "--" + i.ToString();
+            //    //myString += "--" + i.ToString();
 
-                myString.Append("--");
-                myString.Append(i);
-            }
+            //    myString.Append("--");
+            //    myString.Append(i);
+            //}
+
+            string myString = "  It's better to be lucky than good.  ";
+
+            //myString = myString.Substring(5, 12);
+            //myString = myString.ToUpper();
+            //myString = myString.Replace(" ", "--");
+            myString = String.Format("Length Before: {0} -- After: {1}", myString.Length, myString.Trim().Length);
 
             Console.WriteLine(myString);
             Console.ReadLine();

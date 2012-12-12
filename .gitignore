@@ -69,4 +69,4 @@ packages/
 *.resharper
 *.sln.cache
 *.suo
-*.[Cc]onfig
+#*.[Cc]onfig

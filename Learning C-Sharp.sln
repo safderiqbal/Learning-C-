@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatesAndTimes", "DatesAndTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClasses", "SimpleClasses\SimpleClasses.csproj", "{BF91E24B-EB0E-4120-9A1A-C71A1115172A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByRefByVal", "ConsoleApplication1\ByRefByVal.csproj", "{71DE664D-3DCA-4F7A-8E44-412033A605C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByRefByVal", "ByRefByVal\ByRefByVal.csproj", "{71DE664D-3DCA-4F7A-8E44-412033A605C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

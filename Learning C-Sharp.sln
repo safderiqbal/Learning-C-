@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextFileWhile", "ReadTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{0898C2C1-6C97-4B65-B786-ABFB13E672F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatesAndTimes", "DatesAndTimes\DatesAndTimes.csproj", "{D129BCE2-00B4-4274-8E14-AD9D54D38B01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,16 @@ Global
 		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0898C2C1-6C97-4B65-B786-ABFB13E672F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D129BCE2-00B4-4274-8E14-AD9D54D38B01}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,7 +15,15 @@ namespace DatesAndTimes
             //Console.WriteLine(myValue.ToShortDateString());
             //Console.WriteLine(myValue.ToShortTimeString());
 
-            Console.WriteLine(myValue.AddDays(3).ToShortDateString());
+            //Console.WriteLine(myValue.AddDays(3).ToShortDateString());
+            //Console.WriteLine(myValue.AddHours(-3).ToShortTimeString());
+
+            //Console.WriteLine(myValue.Month.ToString());
+
+            //DateTime myBirthdate = new DateTime(1990, 1, 31);
+            DateTime myBirthdate = DateTime.Parse("31/01/1990");
+            TimeSpan myAge = DateTime.Now.Subtract(myBirthdate);
+            Console.WriteLine(myAge.TotalDays.ToString());
 
             Console.ReadLine();
         }

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClasses", "SimpleClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByRefByVal", "ByRefByVal\ByRefByVal.csproj", "{71DE664D-3DCA-4F7A-8E44-412033A605C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingInheritence", "UnderstandingInheritence\UnderstandingInheritence.csproj", "{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,16 @@ Global
 		{71DE664D-3DCA-4F7A-8E44-412033A605C3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{71DE664D-3DCA-4F7A-8E44-412033A605C3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{71DE664D-3DCA-4F7A-8E44-412033A605C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CCC9D4CA-FE03-4771-AF5A-B4EEEFB82C5A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

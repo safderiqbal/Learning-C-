@@ -16,8 +16,15 @@ namespace UnderstandingInheritence
             myCar.Colour = "Black";
             myCar.Year = 2005;
 
-            someMethod(myCar);
+            Truck myTruck = new Truck();
+            myTruck.Make = "Ford";
+            myTruck.Model = "F950";
+            myTruck.Year = 2006;
+            myTruck.Colour = "Black";
+            myTruck.TowingCapacity = 1200;
 
+            someMethod(myCar);
+            someMethod(myTruck);
             //myCar.PrintMe();
 
             Console.ReadLine();
@@ -40,5 +47,11 @@ namespace UnderstandingInheritence
         {
             Console.WriteLine("{0} - {1}", this.Make, this.Model);
         }
+    }
+
+    class Truck : Car
+    {
+        public int TowingCapacity { get; set; }
+
     }
 }

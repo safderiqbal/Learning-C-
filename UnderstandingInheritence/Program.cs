@@ -37,27 +37,45 @@ namespace UnderstandingInheritence
         }
     }
 
-    class Car
+    abstract class Vehicle
     {
         public string Make { get; set; }
         public string Model { get; set; }
         public int Year { get; set; }
         public string Colour { get; set; }
 
-        public virtual void PrintMe()
+        public abstract void PrintMe();
+    }
+
+    class Car : Vehicle
+    {
+      
+        //public virtual void PrintMe()
+        //{
+        //    Console.WriteLine("{0} - {1}", this.Make, this.Model);
+        //}
+
+        public override void PrintMe()
         {
             Console.WriteLine("{0} - {1}", this.Make, this.Model);
         }
     }
 
-    class Truck : Car
+    sealed class Truck : Vehicle
     {
         public int TowingCapacity { get; set; }
 
+
+
         public override void PrintMe()
         {
-            Console.WriteLine("{0} - {1}", this.Make, this.TowingCapacity);
+            Console.WriteLine("{0} - {1}", this.Make, this.TowingCapacity.ToString());
         }
 
     }
+
+    //class ReallyBigTruck : Truck
+    //{
+
+    //}
 }

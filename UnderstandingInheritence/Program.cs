@@ -23,9 +23,10 @@ namespace UnderstandingInheritence
             myTruck.Colour = "Black";
             myTruck.TowingCapacity = 1200;
 
-            someMethod(myCar);
-            someMethod(myTruck);
-            //myCar.PrintMe();
+            //someMethod(myCar);
+            //someMethod(myTruck);
+            myCar.PrintMe();
+            myTruck.PrintMe();
 
             Console.ReadLine();
         }
@@ -43,7 +44,7 @@ namespace UnderstandingInheritence
         public int Year { get; set; }
         public string Colour { get; set; }
 
-        public void PrintMe()
+        public virtual void PrintMe()
         {
             Console.WriteLine("{0} - {1}", this.Make, this.Model);
         }
@@ -52,6 +53,11 @@ namespace UnderstandingInheritence
     class Truck : Car
     {
         public int TowingCapacity { get; set; }
+
+        public override void PrintMe()
+        {
+            Console.WriteLine("{0} - {1}", this.Make, this.TowingCapacity);
+        }
 
     }
 }
